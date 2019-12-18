@@ -1,0 +1,16 @@
+logo
+navigation bar
+    home
+    about
+heading 1
+image, sign petition button
+social media sharing icons
+text description (paragraph <p>)
+blocks of other petitions (photos and titles) (3 divs containing imgs and h2s)
+footer (<footer>)
+    contact us (<h2>)
+        map screenshot (leave for now - google maps)
+        address (<p>)
+        telephone number(<p>)
+        email address(<p>)
+    copyright (<p>)
