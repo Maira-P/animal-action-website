@@ -2,21 +2,41 @@
 <html lang="en-GB">
 
     <head>
-        <title>About | Animal Action | End illegal animal hunting in the UK</title>
+        <title>About | Animal Action</title>
         <meta charset="utf-8">
         <meta name="description" content="Animal Action was founded in 1954 with the aim of banning fox hunting, stag hunting, otter hunting, hare hunting and hare coursing in the UK.">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
     <body>
 
         <header id="scroll-to-top">
-            <img src="images/logo-dif-font.png" alt="logo of the organisation, reading Animal Action.">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <img src="images/logo-dif-font.png" alt="logo of the organisation, reading Animal Action.">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Campaigns
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="fox-hunting.html">Fox Hunting</a>
+                      <a class="dropdown-item" href="badger-cull.html">Badger Cull</a>
+                    </div>
+                  </li>
                 </ul>
-            </nav>
+              </div>
+            </nav>            
         </header>
 
         <main>
@@ -32,6 +52,10 @@
                 <li>Since the Act came into effect, Animal Action has played a leading role in liaising with the police to help enforce the law, in investigating hunting activities and in taking private prosecutions of hunts where necessary.</li>
                 <li>In just the last couple of years, we took a leading role in preventing a back-door attempt to repeal the Hunting Act in 2015: We revealed the dark side of hunting when we found 16 fox cubs in a barn being prepared for the hunting season; we exposed a hunt which threw live fox cubs to its hounds; we exposed the stark conditions in which pheasants and partridges are bred before they are shot for sport; we persuaded travel agents to stop promoting trips to the Pamplona Bull Run, and much more.</li>
             </ul>
+
+            <div class="img1">
+              <p><img src="images/hunters-sabs-clash.jpeg" alt="Image of hunters and hunt saboteurs clashing."></p>
+            </div>
                     
             <h2>INVESTIGATE, EDUCATE, PROTECT</h2>
             <p>As an animal welfare charity, Animal Action does everything we can to ensure that animals do not suffer for the sake of sport. Our motto sums up how we do it: Investigate, Educate, Protect.</p>
@@ -54,14 +78,16 @@
             <p>We believe that a civilised country should not allow animals to be killed or cruelly treated purely for 'sport'. This is not a small problem - the number of animals involved in the UK is in the millions every year. But we shall continue to act even if just one animal is harmed for 'fun'.
             
             <p>Attitudes are changing. Bullfighting and trophy hunting are now universally abhorred when not so long ago they were accepted. When the Hunting Act was introduced, just one Conservative MP voted for it; now we know that 50 or more Conservative MPs would stand up against legalising hunting. There are those who oppose us, because there is a small but influential minority who support cruel sports such as hunting and shooting. But we know that the majority of people in the UK share our views: more than eight out of ten support a ban on hunting with dogs, for example. We are buoyed by that support, and shall continue pursuing the mission which Animal Action was set up to fulfil.</p>                   
-            
-            <p>Join animal Action today.</p>
 
-            <a href="#scroll-to-top">Scroll to top</a>
+            <div class="scroll">
+              <a href="#scroll-to-top">Scroll to top</a>
+            </div>
+            <br>
         </main>
 
         <footer>
-            <h2>Contact us</h2>
+          <div class="footer">
+            <h3>Contact us</h3>
             <p>Address:<br>
             Southside, 105 Victoria Street<br>
             London SW1E 6QT</p>
@@ -69,6 +95,7 @@
             020 7783 1170</p>
             <p>Email address:<br>
             info(at)animalaction.org</p>
+          </div>
         </footer>
 
     </body>
